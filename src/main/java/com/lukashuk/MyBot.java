@@ -19,9 +19,10 @@ public class MyBot extends TelegramLongPollingBot {
         Message msg = update.getMessage();
         sendMsg(msg, msg.getText());
         if (msg.getChatId() == 809108873) {
-            sendMsg(msg, "Vladislav kotik");
+            sendMsg(msg, "Vladislav kotik с:");
         }
     }
+
 
 
     @SuppressWarnings("deprecation")
